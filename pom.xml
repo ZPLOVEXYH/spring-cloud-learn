@@ -20,6 +20,7 @@
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Hoxton.RC2</spring-cloud.version>
+        <lombok.version>1.16.20</lombok.version>
     </properties>
 
     <modules>
@@ -30,6 +31,7 @@
         <module>spring-cloud-netflix-hystrix</module>
         <module>spring-cloud-feign-hystrix</module>
         <module>spring-cloud-netflix-zuul</module>
+        <module>spring-cloud-config-server</module>
     </modules>
 
     <dependencies>
@@ -54,6 +56,12 @@
                 <version>${spring-cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <!--lombok-->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
