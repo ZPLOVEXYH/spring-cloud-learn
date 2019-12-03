@@ -6,21 +6,26 @@
         <groupId>com.springcloud.learn</groupId>
         <artifactId>spring-cloud-learn</artifactId>
         <version>1.0.0</version>
+        <relativePath/>
     </parent>
 
-    <groupId>com.springcloud.client</groupId>
-    <artifactId>spring-cloud-eureka-client</artifactId>
+    <groupId>com.spring.cloud.turbine</groupId>
+    <artifactId>spring-cloud-service-turbine</artifactId>
     <version>1.0.0</version>
 
-    <name>spring-cloud-eureka-client(eureka-client)</name>
-    <description>eureka-client</description>
+    <name>spring-cloud-service-turbine(service-turbine)</name>
+    <description>service-turbine</description>
 
     <properties>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Hoxton.RC2</spring-cloud.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
@@ -28,7 +33,7 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
         <dependency>
@@ -42,8 +47,8 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-turbine</artifactId>
         </dependency>
 
         <dependency>
