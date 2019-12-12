@@ -1,0 +1,14 @@
+server:
+  port: 8993
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: after_route
+        uri: http://localhost:8084/
+        filters:
+        - AddRequestHeader=Authorization, Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ6cCIsImlzcyI6Imh0dHA6Ly93d3cuc2FtcGxlLmNuIiwiaWF0IjoxNTc2MDMyMDM2fQ.v96KM5DYYHuOZiLL9JZdOi4ASPf9b4IRwuyszHWlzj6PW0gAF1yWtEuh_iILTjX4jD2TLKB_nubLkoION0ERCg
+        - AddRequestParameter=pageNum, 1
+        - AddRequestParameter=pageSize, 2
+        predicates:
+        - After=2019-12-09T17:42:47.789-07:00[America/Denver]

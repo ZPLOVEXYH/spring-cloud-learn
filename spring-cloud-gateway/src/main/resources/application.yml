@@ -1,16 +1,3 @@
 spring:
   profiles:
-    active: add_request_header_route
-management:
-  server:
-    port: 8992
-  endpoints:
-    web:
-      base-path: /
-      exposure:
-        include: "*"
-info:
-  contact:
-    email: xixicat@gmail.com
-    phone: 0755-82890987
-    #http://localhost:8081/mappings  ,http://localhost:8081/bean
+    active: after_route
