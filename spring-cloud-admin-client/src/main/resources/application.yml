@@ -1,0 +1,25 @@
+server:
+  port: 8994
+spring:
+  application:
+    name: admin-client
+  boot:
+    admin:
+      client:
+        url: http://localhost:8993
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+eureka:
+  client:
+    registry-fetch-interval-seconds: 5
+    service-url:
+      defaultZone: ${EUREKA_SERVICE_URL:http://localhost:8761}/eureka/
+  instance:
+    lease-renewal-interval-in-seconds: 10
+    health-check-url-path: /actuator/health
