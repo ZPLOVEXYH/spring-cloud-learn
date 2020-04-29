@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: jdbc
+  application:
+    name: config-jdbc-server
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/eth?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: mysql
+  cloud:
+    config:
+      label: master
+      server:
+        jdbc: true

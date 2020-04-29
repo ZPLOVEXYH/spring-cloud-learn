@@ -1,0 +1,27 @@
+server:
+  port: 8991
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: path_route
+        uri: http://httpbin.org/get
+        filters:
+          - AddRequestHeader=hello, world
+          - AddResponseHeader=rsp, rspvalue
+        predicates:
+        - After=2017-01-20T17:42:47.789-07:00[America/Denver]
+management:
+  server:
+    port: 8992
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: "*"
+info:
+  contact:
+    email: xixicat@gmail.com
+    phone: 0755-82890987
+    #http://localhost:8081/mappings  ,http://localhost:8081/bean

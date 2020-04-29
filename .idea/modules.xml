@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java8InAction-master/lambdasinaction.iml" filepath="$PROJECT_DIR$/Java8InAction-master/lambdasinaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample-job/sample-job.iml" filepath="$PROJECT_DIR$/sample-job/sample-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-admin-client/spring-cloud-admin-client.iml" filepath="$PROJECT_DIR$/spring-cloud-admin-client/spring-cloud-admin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-admin-server/spring-cloud-admin-server.iml" filepath="$PROJECT_DIR$/spring-cloud-admin-server/spring-cloud-admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-client/spring-cloud-config-client.iml" filepath="$PROJECT_DIR$/spring-cloud-config-client/spring-cloud-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" filepath="$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-client/spring-cloud-eureka-client.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-client/spring-cloud-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-server/spring-cloud-eureka-server.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-server/spring-cloud-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-feign-hystrix/spring-cloud-feign-hystrix.iml" filepath="$PROJECT_DIR$/spring-cloud-feign-hystrix/spring-cloud-feign-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-jdbc-config-client/spring-cloud-jdbc-config-client.iml" filepath="$PROJECT_DIR$/spring-cloud-jdbc-config-client/spring-cloud-jdbc-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-jdbc-config-server/spring-cloud-jdbc-config-server.iml" filepath="$PROJECT_DIR$/spring-cloud-jdbc-config-server/spring-cloud-jdbc-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn.iml" filepath="$PROJECT_DIR$/spring-cloud-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-netflix-hystrix/spring-cloud-netflix-hystrix.iml" filepath="$PROJECT_DIR$/spring-cloud-netflix-hystrix/spring-cloud-netflix-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-netflix-zuul/spring-cloud-netflix-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-netflix-zuul/spring-cloud-netflix-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-server-miya/spring-cloud-server-miya.iml" filepath="$PROJECT_DIR$/spring-cloud-server-miya/spring-cloud-server-miya.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-server-zipkin/spring-cloud-server-zipkin.iml" filepath="$PROJECT_DIR$/spring-cloud-server-zipkin/spring-cloud-server-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-easypoi/spring-cloud-service-easypoi.iml" filepath="$PROJECT_DIR$/spring-cloud-service-easypoi/spring-cloud-service-easypoi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-feign/spring-cloud-service-feign.iml" filepath="$PROJECT_DIR$/spring-cloud-service-feign/spring-cloud-service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-gateway/spring-cloud-service-gateway.iml" filepath="$PROJECT_DIR$/spring-cloud-service-gateway/spring-cloud-service-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-netty/spring-cloud-service-netty.iml" filepath="$PROJECT_DIR$/spring-cloud-service-netty/spring-cloud-service-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-ribbon/spring-cloud-service-ribbon.iml" filepath="$PROJECT_DIR$/spring-cloud-service-ribbon/spring-cloud-service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-turbine/spring-cloud-service-turbine.iml" filepath="$PROJECT_DIR$/spring-cloud-service-turbine/spring-cloud-service-turbine.iml" />
+    </modules>
+  </component>
+</project>

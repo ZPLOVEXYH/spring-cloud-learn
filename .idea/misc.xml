@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-service-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-service-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-netflix-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-feign-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-netflix-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-server-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-server-miya/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-service-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-service-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-admin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-admin-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-jdbc-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-jdbc-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-service-easypoi/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-service-netty/pom.xml" />
+        <option value="$PROJECT_DIR$/Java8InAction-master/pom.xml" />
+        <option value="$PROJECT_DIR$/sample-job/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="712ec8de-5dbb-4327-b19b-bbbf8759d729" />
+      <option name="name" value="712ec8de-5dbb-4327-b19b-bbbf8759d729" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+  </component>
+</project>

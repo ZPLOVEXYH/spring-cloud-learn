@@ -1,0 +1,2 @@
+2020-04-26 14:31:57,090 INFO [main] cn.samples.job.SampleJobApplication [StartupInfoLogger.java : 55] Starting SampleJobApplication on DESKTOP-POCUFT8 with PID 6364 (C:\idea_project\spring-cloud-learn\sample-job\target\classes started by zp&xyh in C:\idea_project\spring-cloud-learn)
+2020-04-26 14:31:57,097 INFO [main] cn.samples.job.SampleJobApplication [SpringApplication.java : 651] No active profile set, falling back to default profiles: default

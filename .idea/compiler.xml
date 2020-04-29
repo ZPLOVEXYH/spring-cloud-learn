@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lambdasinaction" />
+        <module name="sample-job" />
+        <module name="spring-cloud-admin-client" />
+        <module name="spring-cloud-admin-server" />
+        <module name="spring-cloud-config-client" />
+        <module name="spring-cloud-config-server" />
+        <module name="spring-cloud-eureka-client" />
+        <module name="spring-cloud-eureka-server" />
+        <module name="spring-cloud-feign-hystrix" />
+        <module name="spring-cloud-gateway" />
+        <module name="spring-cloud-jdbc-config-client" />
+        <module name="spring-cloud-jdbc-config-server" />
+        <module name="spring-cloud-netflix-hystrix" />
+        <module name="spring-cloud-netflix-zuul" />
+        <module name="spring-cloud-server-miya" />
+        <module name="spring-cloud-server-zipkin" />
+        <module name="spring-cloud-service-easypoi" />
+        <module name="spring-cloud-service-feign" />
+        <module name="spring-cloud-service-gateway" />
+        <module name="spring-cloud-service-netty" />
+        <module name="spring-cloud-service-ribbon" />
+        <module name="spring-cloud-service-turbine" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lambdasinaction" target="1.8" />
+      <module name="sample-job" target="1.8" />
+      <module name="spring-cloud-admin-client" target="1.8" />
+      <module name="spring-cloud-admin-server" target="1.8" />
+      <module name="spring-cloud-config-client" target="1.8" />
+      <module name="spring-cloud-config-server" target="1.8" />
+      <module name="spring-cloud-eureka-client" target="1.8" />
+      <module name="spring-cloud-eureka-server" target="1.8" />
+      <module name="spring-cloud-feign-hystrix" target="1.8" />
+      <module name="spring-cloud-gateway" target="1.8" />
+      <module name="spring-cloud-jdbc-config-client" target="1.8" />
+      <module name="spring-cloud-jdbc-config-server" target="1.8" />
+      <module name="spring-cloud-learn" target="1.8" />
+      <module name="spring-cloud-netflix-hystrix" target="1.8" />
+      <module name="spring-cloud-netflix-zuul" target="1.8" />
+      <module name="spring-cloud-server-miya" target="1.8" />
+      <module name="spring-cloud-server-zipkin" target="1.8" />
+      <module name="spring-cloud-service-easypoi" target="1.8" />
+      <module name="spring-cloud-service-feign" target="1.8" />
+      <module name="spring-cloud-service-gateway" target="1.8" />
+      <module name="spring-cloud-service-netty" target="1.8" />
+      <module name="spring-cloud-service-ribbon" target="1.8" />
+      <module name="spring-cloud-service-turbine" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

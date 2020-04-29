@@ -1,0 +1,33 @@
+server:
+  port: 8881
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888/
+      profile: dev
+      label: master
+      discovery:
+        # 是否从配置中心读取文件
+        enabled: true
+        # 配置中心的servieId，即服务名。
+        service-id: config-server
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+  application:
+    name: config-client
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+
+foo: foo version 20

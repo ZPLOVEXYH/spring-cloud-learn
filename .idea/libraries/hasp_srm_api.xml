@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="hasp-srm-api">
+    <CLASSES>
+      <root url="jar://D:/LDK API/Java/Java/hasp-srm-api.jar!/" />
+      <root url="jar://D:/LDK API/Java/Java/hasp-srm-demo.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
